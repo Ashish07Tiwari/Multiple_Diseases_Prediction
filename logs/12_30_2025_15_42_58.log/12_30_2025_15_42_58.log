@@ -1,0 +1,15 @@
+[2025-12-30 15:43:03,804] 24 root - INFO - Data Ingestion started for Breast-Cancer
+[2025-12-30 15:43:03,887] 47 root - INFO - Ingestion completed for Breast-Cancer
+[2025-12-30 15:43:03,887] 24 root - INFO - Data Ingestion started for Heart-Diseases
+[2025-12-30 15:43:03,917] 47 root - INFO - Ingestion completed for Heart-Diseases
+[2025-12-30 15:43:03,917] 24 root - INFO - Data Ingestion started for Diabetes-Diseases
+[2025-12-30 15:43:03,940] 47 root - INFO - Ingestion completed for Diabetes-Diseases
+[2025-12-30 15:43:03,941] 24 root - INFO - Data Ingestion started for Kidney-Diseases
+[2025-12-30 15:43:03,974] 47 root - INFO - Ingestion completed for Kidney-Diseases
+[2025-12-30 15:43:04,081] 122 root - INFO - Train and Test data loaded
+[2025-12-30 15:43:04,083] 101 root - INFO - Numerical Columns: ['radius_mean', 'texture_mean', 'perimeter_mean', 'area_mean', 'smoothness_mean', 'compactness_mean', 'concavity_mean', 'concave points_mean', 'symmetry_mean', 'fractal_dimension_mean']
+[2025-12-30 15:43:04,084] 102 root - INFO - Categorical Columns: []
+[2025-12-30 15:43:04,105] 145 root - INFO - Preprocessing completed with RobustScaler
+[2025-12-30 15:43:04,176] 122 root - INFO - Train and Test data loaded
+[2025-12-30 15:43:04,178] 101 root - INFO - Numerical Columns: ['age', 'trestbps', 'chol', 'thalach', 'oldpeak']
+[2025-12-30 15:43:04,178] 102 root - INFO - Categorical Columns: ['sex', 'cp', 'fbs', 'restecg', 'exang', 'slope', 'ca', 'thal']

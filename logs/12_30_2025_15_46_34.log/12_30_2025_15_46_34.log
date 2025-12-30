@@ -1,0 +1,23 @@
+[2025-12-30 15:46:42,835] 24 root - INFO - Data Ingestion started for Breast-Cancer
+[2025-12-30 15:46:42,954] 47 root - INFO - Ingestion completed for Breast-Cancer
+[2025-12-30 15:46:42,954] 24 root - INFO - Data Ingestion started for Heart-Diseases
+[2025-12-30 15:46:43,010] 47 root - INFO - Ingestion completed for Heart-Diseases
+[2025-12-30 15:46:43,010] 24 root - INFO - Data Ingestion started for Diabetes-Diseases
+[2025-12-30 15:46:43,057] 47 root - INFO - Ingestion completed for Diabetes-Diseases
+[2025-12-30 15:46:43,058] 24 root - INFO - Data Ingestion started for Kidney-Diseases
+[2025-12-30 15:46:43,127] 47 root - INFO - Ingestion completed for Kidney-Diseases
+[2025-12-30 15:46:43,375] 122 root - INFO - Train and Test data loaded
+[2025-12-30 15:46:43,384] 101 root - INFO - Numerical Columns: ['radius_mean', 'texture_mean', 'perimeter_mean', 'area_mean', 'smoothness_mean', 'compactness_mean', 'concavity_mean', 'concave points_mean', 'symmetry_mean', 'fractal_dimension_mean']
+[2025-12-30 15:46:43,385] 102 root - INFO - Categorical Columns: []
+[2025-12-30 15:46:43,420] 145 root - INFO - Preprocessing completed with RobustScaler
+[2025-12-30 15:46:43,460] 122 root - INFO - Train and Test data loaded
+[2025-12-30 15:46:43,463] 101 root - INFO - Numerical Columns: ['age', 'trestbps', 'chol', 'thalach', 'oldpeak']
+[2025-12-30 15:46:43,463] 102 root - INFO - Categorical Columns: ['sex', 'cp', 'fbs', 'restecg', 'exang', 'slope', 'ca', 'thal']
+[2025-12-30 15:46:43,525] 145 root - INFO - Preprocessing completed with RobustScaler
+[2025-12-30 15:46:43,605] 122 root - INFO - Train and Test data loaded
+[2025-12-30 15:46:43,607] 101 root - INFO - Numerical Columns: ['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']
+[2025-12-30 15:46:43,607] 102 root - INFO - Categorical Columns: []
+[2025-12-30 15:46:43,625] 145 root - INFO - Preprocessing completed with RobustScaler
+[2025-12-30 15:46:43,689] 122 root - INFO - Train and Test data loaded
+[2025-12-30 15:46:43,690] 101 root - INFO - Numerical Columns: ['age', 'bp', 'bgr', 'bu', 'sc', 'sod', 'pot', 'hemo', 'pcv', 'wc', 'rc']
+[2025-12-30 15:46:43,691] 102 root - INFO - Categorical Columns: ['rbc', 'pc', 'pcc', 'ba', 'htn', 'dm', 'cad', 'appet', 'pe', 'ane']

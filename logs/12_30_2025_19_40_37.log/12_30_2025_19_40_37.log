@@ -1,0 +1,8 @@
+[2025-12-30 19:40:43,646] 24 root - INFO - Data Ingestion started for Breast-Cancer
+[2025-12-30 19:40:43,766] 47 root - INFO - Ingestion completed for Breast-Cancer
+[2025-12-30 19:40:43,767] 24 root - INFO - Data Ingestion started for Heart-Diseases
+[2025-12-30 19:40:43,800] 47 root - INFO - Ingestion completed for Heart-Diseases
+[2025-12-30 19:40:43,800] 24 root - INFO - Data Ingestion started for Diabetes-Diseases
+[2025-12-30 19:40:43,825] 47 root - INFO - Ingestion completed for Diabetes-Diseases
+[2025-12-30 19:40:43,826] 24 root - INFO - Data Ingestion started for Kidney-Diseases
+[2025-12-30 19:40:43,863] 47 root - INFO - Ingestion completed for Kidney-Diseases

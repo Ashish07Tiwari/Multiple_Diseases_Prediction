@@ -4,6 +4,9 @@ from src.exception import CustomException
 from src.logger import logging
 import pandas as pd
 
+from src.Components.data_transformation import DataTransformerConfig
+from src.Components.data_transformation import DataTransformer
+
 from dataclasses import dataclass
 from sklearn.model_selection import train_test_split
 
@@ -64,3 +67,21 @@ if __name__ == "__main__":
     # For Kidney Diseases dataset
     ingestion = DataIngestion(r"notebooks\data\kidney_disease.csv", "Kidney-Diseases")
     train_path_kidney, test_path_kidney = ingestion.initiate_data_ingestion()
+
+    # For Breast-Cancer 
+    data_transformation = DataTransformer(dataset_name= "breast_cancer")
+    train_arr_bc, test_arr_bc, _ = data_transformation.initiate_data_transformer(train_path_bc, test_path_bc)
+
+    # For Heart
+    data_transformation = DataTransformer(dataset_name= "heart")
+    train_arr_heart, test_arr_heart, _ = data_transformation.initiate_data_transformer(train_path_heart, test_path_heart)
+
+    # For Diabetes
+    data_transformation = DataTransformer(dataset_name= "diabetes")
+    train_arr_diabetes, test_arr_diabetes, _ = data_transformation.initiate_data_transformer(train_path_diabetes, test_path_diabetes)
+
+    # For kidney
+    data_transformation = DataTransformer(dataset_name= "kidney")
+    train_arr_kidney, test_arr_kidney, _ = data_transformation.initiate_data_transformer(train_path_kidney, test_path_kidney)
+
+
