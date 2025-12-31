@@ -1,0 +1,11 @@
+[2025-12-31 09:56:51,033] 26 root - INFO - Data Ingestion started for Breast-Cancer
+[2025-12-31 09:56:51,129] 49 root - INFO - Ingestion completed for Breast-Cancer
+[2025-12-31 09:56:51,129] 26 root - INFO - Data Ingestion started for Heart-Diseases
+[2025-12-31 09:56:51,159] 49 root - INFO - Ingestion completed for Heart-Diseases
+[2025-12-31 09:56:51,159] 26 root - INFO - Data Ingestion started for Diabetes-Diseases
+[2025-12-31 09:56:51,181] 49 root - INFO - Ingestion completed for Diabetes-Diseases
+[2025-12-31 09:56:51,181] 26 root - INFO - Data Ingestion started for Kidney-Diseases
+[2025-12-31 09:56:51,213] 49 root - INFO - Ingestion completed for Kidney-Diseases
+[2025-12-31 09:56:51,341] 133 root - INFO - Train and Test data loaded
+[2025-12-31 09:56:51,347] 108 root - INFO - Numerical Columns: ['radius_mean', 'texture_mean', 'perimeter_mean', 'area_mean', 'smoothness_mean', 'compactness_mean', 'concavity_mean', 'concave points_mean', 'symmetry_mean', 'fractal_dimension_mean', 'radius_se', 'texture_se', 'perimeter_se', 'area_se', 'smoothness_se', 'compactness_se', 'concavity_se', 'concave points_se', 'symmetry_se', 'fractal_dimension_se', 'radius_worst', 'texture_worst', 'perimeter_worst', 'area_worst', 'smoothness_worst', 'compactness_worst', 'concavity_worst', 'concave points_worst', 'symmetry_worst', 'fractal_dimension_worst']
+[2025-12-31 09:56:51,348] 109 root - INFO - Categorical Columns: ['diagnosis']

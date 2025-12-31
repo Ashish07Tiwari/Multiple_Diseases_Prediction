@@ -1,0 +1,26 @@
+[2025-12-31 10:04:55,996] 26 root - INFO - Data Ingestion started for Breast-Cancer
+[2025-12-31 10:04:56,079] 49 root - INFO - Ingestion completed for Breast-Cancer
+[2025-12-31 10:04:56,080] 26 root - INFO - Data Ingestion started for Heart-Diseases
+[2025-12-31 10:04:56,108] 49 root - INFO - Ingestion completed for Heart-Diseases
+[2025-12-31 10:04:56,109] 26 root - INFO - Data Ingestion started for Diabetes-Diseases
+[2025-12-31 10:04:56,130] 49 root - INFO - Ingestion completed for Diabetes-Diseases
+[2025-12-31 10:04:56,130] 26 root - INFO - Data Ingestion started for Kidney-Diseases
+[2025-12-31 10:04:56,160] 49 root - INFO - Ingestion completed for Kidney-Diseases
+[2025-12-31 10:04:56,265] 133 root - INFO - Train and Test data loaded
+[2025-12-31 10:04:56,267] 108 root - INFO - Numerical Columns: ['radius_mean', 'texture_mean', 'perimeter_mean', 'area_mean', 'smoothness_mean', 'compactness_mean', 'concavity_mean', 'concave points_mean', 'symmetry_mean', 'fractal_dimension_mean', 'radius_se', 'texture_se', 'perimeter_se', 'area_se', 'smoothness_se', 'compactness_se', 'concavity_se', 'concave points_se', 'symmetry_se', 'fractal_dimension_se', 'radius_worst', 'texture_worst', 'perimeter_worst', 'area_worst', 'smoothness_worst', 'compactness_worst', 'concavity_worst', 'concave points_worst', 'symmetry_worst', 'fractal_dimension_worst']
+[2025-12-31 10:04:56,268] 109 root - INFO - Categorical Columns: []
+[2025-12-31 10:04:56,300] 156 root - INFO - Preprocessing completed with RobustScaler
+[2025-12-31 10:04:56,348] 133 root - INFO - Train and Test data loaded
+[2025-12-31 10:04:56,350] 108 root - INFO - Numerical Columns: ['age', 'trestbps', 'chol', 'thalach', 'oldpeak']
+[2025-12-31 10:04:56,350] 109 root - INFO - Categorical Columns: ['sex', 'cp', 'fbs', 'restecg', 'exang', 'slope', 'ca', 'thal']
+[2025-12-31 10:04:56,399] 156 root - INFO - Preprocessing completed with RobustScaler
+[2025-12-31 10:04:56,459] 133 root - INFO - Train and Test data loaded
+[2025-12-31 10:04:56,460] 108 root - INFO - Numerical Columns: ['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']
+[2025-12-31 10:04:56,460] 109 root - INFO - Categorical Columns: []
+[2025-12-31 10:04:56,477] 156 root - INFO - Preprocessing completed with RobustScaler
+[2025-12-31 10:04:56,529] 133 root - INFO - Train and Test data loaded
+[2025-12-31 10:04:56,530] 108 root - INFO - Numerical Columns: ['age', 'bp', 'bgr', 'bu', 'sc', 'sod', 'pot', 'hemo', 'pcv', 'wc', 'rc', 'sg', 'al', 'su']
+[2025-12-31 10:04:56,531] 109 root - INFO - Categorical Columns: ['rbc', 'pc', 'pcc', 'ba', 'htn', 'dm', 'cad', 'appet', 'pe', 'ane']
+[2025-12-31 10:04:56,578] 156 root - INFO - Preprocessing completed with RobustScaler
+[2025-12-31 10:04:56,578] 45 root - INFO - Model training start for dataset: breast_cancer
+[2025-12-31 10:04:56,579] 74 root - INFO - Training model: Logistic Regression

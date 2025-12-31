@@ -1,0 +1,68 @@
+[2025-12-31 10:19:13,451] 26 root - INFO - Data Ingestion started for Breast-Cancer
+[2025-12-31 10:19:13,542] 49 root - INFO - Ingestion completed for Breast-Cancer
+[2025-12-31 10:19:13,542] 26 root - INFO - Data Ingestion started for Heart-Diseases
+[2025-12-31 10:19:13,570] 49 root - INFO - Ingestion completed for Heart-Diseases
+[2025-12-31 10:19:13,570] 26 root - INFO - Data Ingestion started for Diabetes-Diseases
+[2025-12-31 10:19:13,592] 49 root - INFO - Ingestion completed for Diabetes-Diseases
+[2025-12-31 10:19:13,593] 26 root - INFO - Data Ingestion started for Kidney-Diseases
+[2025-12-31 10:19:13,623] 49 root - INFO - Ingestion completed for Kidney-Diseases
+[2025-12-31 10:19:13,725] 133 root - INFO - Train and Test data loaded
+[2025-12-31 10:19:13,730] 142 root - INFO - Encoding categorical target variable
+[2025-12-31 10:19:13,733] 151 root - INFO - Target mapping used : {'B': 0, 'M': 1}
+[2025-12-31 10:19:13,733] 167 root - INFO - Final numerical features: ['radius_mean', 'texture_mean', 'perimeter_mean', 'area_mean', 'smoothness_mean', 'compactness_mean', 'concavity_mean', 'concave points_mean', 'symmetry_mean', 'fractal_dimension_mean', 'radius_se', 'texture_se', 'perimeter_se', 'area_se', 'smoothness_se', 'compactness_se', 'concavity_se', 'concave points_se', 'symmetry_se', 'fractal_dimension_se', 'radius_worst', 'texture_worst', 'perimeter_worst', 'area_worst', 'smoothness_worst', 'compactness_worst', 'concavity_worst', 'concave points_worst', 'symmetry_worst', 'fractal_dimension_worst']
+[2025-12-31 10:19:13,733] 168 root - INFO - Final categorical features: []
+[2025-12-31 10:19:13,733] 108 root - INFO - Numerical Columns: ['radius_mean', 'texture_mean', 'perimeter_mean', 'area_mean', 'smoothness_mean', 'compactness_mean', 'concavity_mean', 'concave points_mean', 'symmetry_mean', 'fractal_dimension_mean', 'radius_se', 'texture_se', 'perimeter_se', 'area_se', 'smoothness_se', 'compactness_se', 'concavity_se', 'concave points_se', 'symmetry_se', 'fractal_dimension_se', 'radius_worst', 'texture_worst', 'perimeter_worst', 'area_worst', 'smoothness_worst', 'compactness_worst', 'concavity_worst', 'concave points_worst', 'symmetry_worst', 'fractal_dimension_worst']
+[2025-12-31 10:19:13,734] 109 root - INFO - Categorical Columns: []
+[2025-12-31 10:19:13,764] 185 root - INFO - Preprocessing completed with RobustScaler
+[2025-12-31 10:19:13,790] 133 root - INFO - Train and Test data loaded
+[2025-12-31 10:19:13,791] 167 root - INFO - Final numerical features: ['age', 'trestbps', 'chol', 'thalach', 'oldpeak']
+[2025-12-31 10:19:13,791] 168 root - INFO - Final categorical features: ['sex', 'cp', 'fbs', 'restecg', 'exang', 'slope', 'ca', 'thal']
+[2025-12-31 10:19:13,792] 108 root - INFO - Numerical Columns: ['age', 'trestbps', 'chol', 'thalach', 'oldpeak']
+[2025-12-31 10:19:13,792] 109 root - INFO - Categorical Columns: ['sex', 'cp', 'fbs', 'restecg', 'exang', 'slope', 'ca', 'thal']
+[2025-12-31 10:19:13,840] 185 root - INFO - Preprocessing completed with RobustScaler
+[2025-12-31 10:19:13,867] 133 root - INFO - Train and Test data loaded
+[2025-12-31 10:19:13,868] 167 root - INFO - Final numerical features: ['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']
+[2025-12-31 10:19:13,869] 168 root - INFO - Final categorical features: []
+[2025-12-31 10:19:13,869] 108 root - INFO - Numerical Columns: ['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']
+[2025-12-31 10:19:13,869] 109 root - INFO - Categorical Columns: []
+[2025-12-31 10:19:13,886] 185 root - INFO - Preprocessing completed with RobustScaler
+[2025-12-31 10:19:13,930] 133 root - INFO - Train and Test data loaded
+[2025-12-31 10:19:13,931] 142 root - INFO - Encoding categorical target variable
+[2025-12-31 10:19:13,933] 151 root - INFO - Target mapping used : {'ckd': 0, 'notckd': 1, 'ckd\t': 2}
+[2025-12-31 10:19:13,933] 167 root - INFO - Final numerical features: ['age', 'bp', 'bgr', 'bu', 'sc', 'sod', 'pot', 'hemo', 'pcv', 'wc', 'rc', 'sg', 'al', 'su']
+[2025-12-31 10:19:13,933] 168 root - INFO - Final categorical features: ['rbc', 'pc', 'pcc', 'ba', 'htn', 'dm', 'cad', 'appet', 'pe', 'ane']
+[2025-12-31 10:19:13,933] 108 root - INFO - Numerical Columns: ['age', 'bp', 'bgr', 'bu', 'sc', 'sod', 'pot', 'hemo', 'pcv', 'wc', 'rc', 'sg', 'al', 'su']
+[2025-12-31 10:19:13,933] 109 root - INFO - Categorical Columns: ['rbc', 'pc', 'pcc', 'ba', 'htn', 'dm', 'cad', 'appet', 'pe', 'ane']
+[2025-12-31 10:19:13,974] 185 root - INFO - Preprocessing completed with RobustScaler
+[2025-12-31 10:19:13,974] 46 root - INFO - Model training start for dataset: breast_cancer
+[2025-12-31 10:19:13,975] 79 root - INFO - Training model: Logistic Regression
+[2025-12-31 10:19:14,024] 79 root - INFO - Training model: SVM
+[2025-12-31 10:19:14,047] 79 root - INFO - Training model: Decision Tree
+[2025-12-31 10:19:14,054] 79 root - INFO - Training model: Random Forest
+[2025-12-31 10:19:14,472] 79 root - INFO - Training model: Gradient Boosting
+[2025-12-31 10:19:16,963] 79 root - INFO - Training model: XGBoost
+[2025-12-31 10:19:17,145] 94 root - INFO - Best model for breast_cancer: SVM | Score: 0.7543859649122807
+[2025-12-31 10:19:17,156] 46 root - INFO - Model training start for dataset: heart
+[2025-12-31 10:19:17,158] 79 root - INFO - Training model: Logistic Regression
+[2025-12-31 10:19:17,171] 79 root - INFO - Training model: SVM
+[2025-12-31 10:19:17,212] 79 root - INFO - Training model: Decision Tree
+[2025-12-31 10:19:17,218] 79 root - INFO - Training model: Random Forest
+[2025-12-31 10:19:17,600] 79 root - INFO - Training model: Gradient Boosting
+[2025-12-31 10:19:17,933] 79 root - INFO - Training model: XGBoost
+[2025-12-31 10:19:18,062] 94 root - INFO - Best model for heart: Decision Tree | Score: 0.9853658536585366
+[2025-12-31 10:19:18,068] 46 root - INFO - Model training start for dataset: diabetes
+[2025-12-31 10:19:18,070] 79 root - INFO - Training model: Logistic Regression
+[2025-12-31 10:19:18,076] 79 root - INFO - Training model: SVM
+[2025-12-31 10:19:18,103] 79 root - INFO - Training model: Decision Tree
+[2025-12-31 10:19:18,125] 79 root - INFO - Training model: Random Forest
+[2025-12-31 10:19:18,477] 79 root - INFO - Training model: Gradient Boosting
+[2025-12-31 10:19:18,772] 79 root - INFO - Training model: XGBoost
+[2025-12-31 10:19:18,832] 94 root - INFO - Best model for diabetes: Logistic Regression | Score: 0.7532467532467533
+[2025-12-31 10:19:18,838] 46 root - INFO - Model training start for dataset: kidney
+[2025-12-31 10:19:18,840] 79 root - INFO - Training model: Logistic Regression
+[2025-12-31 10:19:18,855] 79 root - INFO - Training model: SVM
+[2025-12-31 10:19:18,863] 79 root - INFO - Training model: Decision Tree
+[2025-12-31 10:19:18,871] 79 root - INFO - Training model: Random Forest
+[2025-12-31 10:19:19,162] 79 root - INFO - Training model: Gradient Boosting
+[2025-12-31 10:19:19,932] 79 root - INFO - Training model: XGBoost
+[2025-12-31 10:19:20,001] 94 root - INFO - Best model for kidney: Logistic Regression | Score: 1.0

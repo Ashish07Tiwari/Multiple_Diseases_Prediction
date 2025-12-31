@@ -7,6 +7,8 @@ import pandas as pd
 from src.Components.data_transformation import DataTransformerConfig
 from src.Components.data_transformation import DataTransformer
 
+from src.Components.model_trainer import ModelTrainer
+
 from dataclasses import dataclass
 from sklearn.model_selection import train_test_split
 
@@ -84,4 +86,19 @@ if __name__ == "__main__":
     data_transformation = DataTransformer(dataset_name= "kidney")
     train_arr_kidney, test_arr_kidney, _ = data_transformation.initiate_data_transformer(train_path_kidney, test_path_kidney)
 
+    trainer = ModelTrainer()
 
+    datasets = {
+        "breast_cancer": (train_arr_bc, test_arr_bc),
+        "heart": (train_arr_heart, test_arr_heart),
+        "diabetes": (train_arr_diabetes, test_arr_diabetes),
+        "kidney": (train_arr_kidney, test_arr_kidney)
+    }
+
+    for dataset_name, (train_array, test_array) in datasets.items():
+        result = trainer.initiate_model_trainer(
+            dataset_name=dataset_name,
+            train_arr=train_array,
+            test_arr=test_array
+        )
+        print(result)

@@ -23,7 +23,12 @@ DATASET_CONFIGS = {
         "numerical_columns": [
             "radius_mean", "texture_mean", "perimeter_mean", "area_mean",
             "smoothness_mean", "compactness_mean", "concavity_mean",
-            "concave points_mean", "symmetry_mean", "fractal_dimension_mean"
+            "concave points_mean", "symmetry_mean", "fractal_dimension_mean",
+            "radius_se", "texture_se", "perimeter_se", "area_se", "smoothness_se",
+            "compactness_se", "concavity_se", "concave points_se", "symmetry_se",
+            "fractal_dimension_se", "radius_worst", "texture_worst", "perimeter_worst",
+            "area_worst", "smoothness_worst", "compactness_worst", "concavity_worst",
+            "concave points_worst", "symmetry_worst", "fractal_dimension_worst"
         ],
         "categorical_columns": [],
         "target_column": "diagnosis"
@@ -132,6 +137,35 @@ class DataTransformer:
 
             X_test = test_data.drop(columns= [self.target_feature])
             y_test = test_data[self.target_feature]
+
+            if y_train.dtype == "object":
+                logging.info("Encoding categorical target variable")
+
+                target_mapping = {
+                    label: idx for idx, label in enumerate(y_train.unique())
+                }
+
+                y_train = y_train.map(target_mapping)
+                y_test = y_test.map(target_mapping)
+
+                logging.info(f"Target mapping used : {target_mapping}")
+            
+            self.numerical_features = [
+                col for col in self.numerical_features if col in X_train.columns
+            ]
+
+            self.categorical_features = [
+                col for col in self.categorical_features if col in X_train.columns
+            ]
+
+            if self.target_feature in self.numerical_features:
+                self.numerical_features.remove(self.target_feature)
+
+            if self.target_feature in self.categorical_features:
+                self.categorical_features.remove(self.target_feature)
+
+            logging.info(f"Final numerical features: {self.numerical_features}")
+            logging.info(f"Final categorical features: {self.categorical_features}")
 
             preprocessor_obj = self.get_data_transformer_object()
 

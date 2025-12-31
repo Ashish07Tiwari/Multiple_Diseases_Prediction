@@ -1,0 +1,11 @@
+[2025-12-31 09:49:17,743] 26 root - INFO - Data Ingestion started for Breast-Cancer
+[2025-12-31 09:49:17,858] 49 root - INFO - Ingestion completed for Breast-Cancer
+[2025-12-31 09:49:17,858] 26 root - INFO - Data Ingestion started for Heart-Diseases
+[2025-12-31 09:49:17,905] 49 root - INFO - Ingestion completed for Heart-Diseases
+[2025-12-31 09:49:17,906] 26 root - INFO - Data Ingestion started for Diabetes-Diseases
+[2025-12-31 09:49:17,946] 49 root - INFO - Ingestion completed for Diabetes-Diseases
+[2025-12-31 09:49:17,946] 26 root - INFO - Data Ingestion started for Kidney-Diseases
+[2025-12-31 09:49:17,994] 49 root - INFO - Ingestion completed for Kidney-Diseases
+[2025-12-31 09:49:18,094] 128 root - INFO - Train and Test data loaded
+[2025-12-31 09:49:18,099] 103 root - INFO - Numerical Columns: ['radius_mean', 'texture_mean', 'perimeter_mean', 'area_mean', 'smoothness_mean', 'compactness_mean', 'concavity_mean', 'concave points_mean', 'symmetry_mean', 'fractal_dimension_mean']
+[2025-12-31 09:49:18,099] 104 root - INFO - Categorical Columns: ['diagnosis']
